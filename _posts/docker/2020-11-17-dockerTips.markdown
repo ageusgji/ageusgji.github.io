@@ -1,9 +1,11 @@
+<!--
 ---
 layout: post
 title:  "도커 팁!!"
 date:   2020-11-17 16:45:03 +0900
 categories: docker
 ---
+-->
 
 
 
@@ -54,9 +56,9 @@ $ curl -L https://raw.githubusercontent.com/docker/compose/master/contrib/comple
 
 > ~/.zshrc에 아래 내용 추가
 {% highlight ruby %}
-# fpath에 경로 추가
+## fpath에 경로 추가
 fpath=(~/.zsh/completion $fpath)
-# compinit 실행
+## compinit 실행
 autoload -Uz compinit && compinit -i
 {% endhighlight %}
 
